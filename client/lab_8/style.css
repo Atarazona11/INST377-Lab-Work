@@ -275,6 +275,16 @@
     .next:hover {
       background-color: rgb(243, 142, 53, 0.815);
     }
+    
+    /* MAP STYLES */
+
+    #map {
+        display: block;
+        width: 400px;
+        height: 380px;
+        boarder: 2px dashed rgb(99, 99, 99);
+        margin-bottom: 1rem;
+    }
   
     /* 
         New code bonus: pure CSS data loading icon
