@@ -146,7 +146,7 @@ async function mainEvent() {
       console.log(event.target.value);
       const filteredList = filterList(currentList, event.target.value);
       injectHTML(filteredList);
-      marketPlace(filteredList, pageMap);
+      markerPlace(filteredList, pageMap);
     });
   
     // And here's an eventListener! It's listening for a "submit" button specifically being clicked
@@ -160,7 +160,7 @@ async function mainEvent() {
     
       // And this function call will perform the "side effect" of injecting the HTML list for you
       injectHTML(currentList);
-      marketPlace(currentList, pageMap);
+      markerPlace(currentList, pageMap);
     
       // By separating the functions, we open the possibility of regenerating the list
       // without having to retrieve fresh data every time
